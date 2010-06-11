@@ -1,0 +1,104 @@
+--- 
+dependencies: 
+  tzinfo: 
+    group: 
+    - :default
+    version: ">= 0"
+  usher: 
+    group: 
+    - :default
+    version: ">= 0"
+  system_timer: 
+    group: 
+    - :default
+    version: ">= 0"
+  uuid: 
+    group: 
+    - :default
+    version: ">= 0"
+  memcachedb-client: 
+    group: 
+    - :default
+    version: = 0.0.2
+  carrot: 
+    group: 
+    - :default
+    version: ">= 0"
+  rainbows: 
+    group: 
+    - :default
+    version: ">= 0"
+  rack-test: 
+    group: 
+    - :test
+    version: ">= 0"
+  validatable: 
+    group: 
+    - :default
+    version: ">= 0"
+  builder: 
+    group: 
+    - :default
+    version: ">= 0"
+  nokogiri: 
+    group: 
+    - :default
+    version: ">= 0"
+  cramp: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- nokogiri: 
+    version: 1.4.2
+- activesupport: 
+    version: 3.0.0.beta4
+- validatable: 
+    version: 1.6.7
+- builder: 
+    version: 2.1.2
+- i18n: 
+    version: 0.4.1
+- mysqlplus: 
+    version: 0.1.2
+- eventmachine: 
+    version: 0.12.10
+- arel: 
+    version: 0.3.3
+- carrot: 
+    version: 0.8.0
+- rack: 
+    version: 1.1.0
+- rack-test: 
+    version: 0.5.5
+    source: 0
+- activemodel: 
+    version: 3.0.0.beta4
+- cramp: 
+    version: "0.11"
+- unicorn: 
+    version: 0.991.0
+- rainbows: 
+    version: 0.94.0
+- memcachedb-client: 
+    version: 0.0.2
+- fuzzyhash: 
+    version: 0.0.11
+- macaddr: 
+    version: 1.0.0
+- uuid: 
+    version: 2.3.1
+- system_timer: 
+    version: "1.0"
+- usher: 
+    version: 0.8.3
+- tzinfo: 
+    version: 0.3.17
+hash: 8177df8174f3b8ab5f3a835ef6df9d338ad6f998
+sources: 
+- Git: 
+    uri: git://github.com/juggy/rack-test.git
+    git: git://github.com/juggy/rack-test.git
+    ref: c8d9a7534ff6040ed9069dae1d0e7126eba193e9
+- Rubygems: 
+    uri: http://gemcutter.org
